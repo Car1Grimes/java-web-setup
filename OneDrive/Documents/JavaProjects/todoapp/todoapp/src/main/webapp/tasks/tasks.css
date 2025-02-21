@@ -1,0 +1,25 @@
+body {
+	height: 100vh;
+}
+
+.task {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+}
+
+.task--table, .task--header {
+	width: 100%;
+}
+
+.task--titles {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.task--title {
+	font-weight: 600;
+	font-size: 2rem;
+	color: olivedrab;
+}

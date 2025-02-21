@@ -1,6 +1,6 @@
 package com.todo.dto;
 
-public class AccountDTO {
+public class UserDTO {
 	
 	private int userId;
 	private String username;

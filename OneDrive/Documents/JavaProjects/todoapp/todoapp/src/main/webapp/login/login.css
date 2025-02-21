@@ -1,0 +1,34 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-block {
+	width: 400px;
+}
+
+.login-form {
+	padding: 20px 30px;
+	background: #e6d1b5;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.form-group {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.form-group input {
+	border-radius: 4px;
+	padding: 4px 6px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+.login-form button {
+	margin-left: auto;
+}
